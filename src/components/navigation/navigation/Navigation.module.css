@@ -1,8 +1,12 @@
 .navLinks {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem 2rem;
+
+  align-items: center;
+  /* basis-full */
+  margin-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 li {
@@ -23,5 +27,5 @@ a {
   display: flex;
   /* justify-content: space-around; */
   gap: 30rem;
-  margin: 1rem;
+  margin: 1rem 1rem 0rem;
 }

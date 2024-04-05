@@ -14,6 +14,9 @@ const NavLinks = () => {
       <li>
         <Link to='/'>Local Pickup</Link>
       </li>
+      <li>Catering</li>
+      <li>Menu</li>
+      <li>About</li>
     </ul>
   );
 };
