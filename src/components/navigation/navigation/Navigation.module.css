@@ -12,3 +12,16 @@ li {
 a {
   text-decoration: none;
 }
+
+.navigation {
+  visibility: hidden;
+}
+
+.btnToggle {
+  position: fixed;
+  top: 0;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30rem;
+  margin: 1rem;
+}
